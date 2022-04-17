@@ -1,0 +1,9 @@
+Arrays: son listas ordenadas de tipos de datos. Cuando digo ordenadas me refiero a que tienen un índice que nos servirá para poder acceder al elemento que queramos.
+Un array se define por ejemplo de la siguiente manera: 
+var arreglo=[];
+
+o tambien se puede definir con sus elementos: 
+var arreglo = [1,2,3,false];
+
+Los arrays tienen varios métodos que sirven para manipular los elementos que están contenidas en ella. Algunos son push, pop, shift, unshift.
+ 

@@ -1,0 +1,10 @@
+for: permite pasar por un conjunto de código las veces que sean necesarias segun el criterio establecido. 
+El ejemplo mas simple sería imprimir en pantalla una palabra N cantidad de veces. Con for lo podemos hacer sencillamente. Ademas en su sintaxis tenemos todo lo que se necesita: definir una variable e inicializarla, la comparación de su valor con algun criterio que definamos y la posibibilidad de realizar una modificación en el valor de la variable. ej: 
+for(i=10; i>0 ; i--) {
+	//codigo
+}	 
+ejecutará el código 10 veces. 
+
+&&: es un operador de logica booleana. Nos dará un valor true si ambos operandos son verdaderos. 
+||: Nos da un valor true si alguno de los operandos es verdadero. ejemplo: 2>5 || 1<2 da true porque 1 es menor que 2. En este caso el código tuvo que analizar la primera y segunda condición.  Distinto hubiera sido si evaluabamos esto: 1<2 || 2>5. Tambien daría true, pero la evaluación termina en la primera expresión.
+!: es la negación de la expresión que le sigue. por ejemplo: !true es igual a false.

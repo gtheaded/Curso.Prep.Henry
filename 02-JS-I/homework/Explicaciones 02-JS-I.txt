@@ -1,0 +1,13 @@
+variables: se usan para almacenar algo, como por ejemplo números y caracteres.
+
+strings: es una cadena de caracteres. Pueden ser números, letras, símbolos. Para diferenciar los strings de otro tipo de datos, los encerramos entre comillas.
+
+Funciones: son porciones de código que se pueden reutilizar sin necesidad de tener que reescribirlo en cada parte del programa en donde queramos utilizarlo. Podríamos verlos como sub programas.   
+argumentos de una funcion: los argumentos sirven para pasarle información a la funcion. Por ejemplo, si tenemos una funcion capaz de sumar dos números, cada uno de estos números será un argumento.
+
+Return: se puede usar para que la funcion devuelva algun tipo de dato. Por ejemplo, en la funcion suma, podemos espeficar: return a + b;   a y b eran los argumentos que le pasamos a la funcion para que los sumara.
+
+Declaraciones if: se usa para decidir hacia donde irá el programa basandose en la validez (true) o falsedad (false) de la condición que el programa esté evaluando. Por ejemplo, podemos hacer que si el if se ejecuta por la mañana imprima un saludo de buenos días, pero que pasadas las 8pm imprima buenas noches.
+
+Valores booleanos: tienen dos valores, true o false. Se pueden usar por ejemplo con operadores de comparación. Por ejemplo el valor de la expresión 8 > 4 será True y el valor de la expresión 4 > 8 será false.
+

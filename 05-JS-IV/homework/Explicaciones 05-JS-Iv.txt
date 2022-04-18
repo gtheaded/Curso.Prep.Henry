@@ -1,0 +1,38 @@
+Objetos: estan formados por un par o pares clave:valor.
+Una instancia de un objeto suele contener información sobre el objeto.
+Un ejemplo podría ser un objeto películas que podría tener los siguientes pares:
+var unaPelicula = {
+			genero: 'Ficcion',
+			idioma: 'Ingles',
+			duración:'120 minutos',
+}
+
+Propiedades y métodos y notación de puntos vs notación de corchetes..
+En este caso genero, idioma y duración son propiedades y las podemos llamar haciendo unaPelicula.genero por ejemplo.
+Otra forma de acceder a las propiedades es utilizando brackets. En el ejemplo anterior usamos punto, el equivalente con brackets sería este:  unaPelicula['genero']. Este ultimo caso es menos directo, pero mas flexible porque puede ser utilizado con variables. 
+Las propiedades pueden ser cualquier tipo de datos, incluso pueden ser funciones, y en ese caso se las llama métodos.
+
+
+Bucle for in
+Es el equivalente a un bucle for de los que se utilizan para recorrer un array, solo que en el caso de los objetos no tenemos un índice númerico. 
+Para los objetos el bucle for toma la siguiente forma: 
+
+for(let clave in unaPelicula) {
+	console.log(clave);
+	console.log(unaPelicula[clave]);
+}
+
+Esto nos dará la siguiente salida:
+
+genero
+Ficcion
+idioma
+Ingles
+duración
+120 minutos
+
+
+
+
+
+

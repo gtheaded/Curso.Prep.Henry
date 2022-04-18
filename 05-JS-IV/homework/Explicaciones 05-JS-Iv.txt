@@ -27,7 +27,7 @@ Esto nos dará la siguiente salida:
 genero
 Ficcion
 idioma
-Ingles
+Ingles 
 duración
 120 minutos
 

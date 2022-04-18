@@ -167,7 +167,7 @@ function agregarMetodoCalculoDescuento(producto) {
    
   }
 
-  
+   
   return producto;
 }
 

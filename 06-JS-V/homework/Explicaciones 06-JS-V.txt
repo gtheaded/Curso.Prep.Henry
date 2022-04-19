@@ -1,0 +1,3 @@
+Prototype: Es una propiedad que tienen las clases y que nos permiten establecer métodos que estas pueden utilizar sin necesidad de tenerlos declarados dentro de la propia clase. 
+
+Constructors(de Clases): es parte de una clase y se utiliza para definir el esqueleto del objeto. El constructor define que argumentos podrá recibir el objeto a la hora de ser instanciado para por ejemplo definir sus propiedades. 

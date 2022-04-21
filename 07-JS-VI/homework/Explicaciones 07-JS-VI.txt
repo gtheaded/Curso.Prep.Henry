@@ -1,0 +1,2 @@
+Funciones Callback: son funciones que se pasan como argumento dentro de otras funciones. Imagino que debe tener algo que ver con el concepto de recursividad.
+
